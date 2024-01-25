@@ -1,0 +1,59 @@
+@import '../dizajn.css';
+
+img.proba{
+    top: 300px;
+    left: 120px;
+    width: 200px;
+    height: 350px;
+}
+
+table{
+    position: absolute;
+}
+
+table.kalendar{
+    top: 200px;
+    left: 550px;
+    width: fit-content;
+    font-size: 20px;
+    border-color: #b90e80;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+}
+
+table.th{
+    width: fit-content;
+}
+
+td{
+    min-width: fit-content;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    text-align: center;
+    background-color: #b90e80;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+td.tdDanas{
+    align-items: left;
+    min-width: fit-content;
+    font-weight: bold;
+    font-style: italic;
+    background-color: transparent;
+    color: #b90e80;
+}
+
+td.tdPoruka{    
+    min-width: fit-content;
+    color: #b90e80;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+
+}
+

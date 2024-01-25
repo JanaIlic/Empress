@@ -1,0 +1,56 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Dauther of Fortune";
+    src: url('../assets/font/daughter-of-fortune/Daughter of Fortune.ttf'), format('truetype');
+}
+
+@font-face {
+    font-family: "Keshya";
+    src: url('../assets/font/keshya/Keshya.ttf'), format('truetype');
+}
+
+
+h1{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: hsl(320, 86%, 39%);
+    font-size: 150px;
+    font-family: "Dauther of Fortune";
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 15px;
+}
+
+h2{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    color: hsl(320, 86%, 39%);
+    font-size: 110px;
+    font-family: "Dauther of Fortune";
+    font-weight: bold;
+    font-style: italic;
+}
+
+pre{
+    position: absolute;
+    height: fit-content;
+    color: #b90e80;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    background: transparent;
+    border: 0px;
+}
+
+
+img{
+    position: absolute;
+}

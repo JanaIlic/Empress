@@ -1,0 +1,16 @@
+@import '../dizajn.css';
+
+
+pre{
+    font-size: 27px;
+    top: 100px;
+    left: 530px;
+    width: 500px;
+}
+
+img.spolja{
+    top: 250px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+}

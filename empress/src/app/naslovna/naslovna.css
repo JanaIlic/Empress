@@ -1,0 +1,14 @@
+@import '../dizajn.css';
+
+pre{
+    top: 200px;
+    left: 600px;
+    font-size: 25px;
+}
+
+img.unutra{
+    top: 350px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+}
