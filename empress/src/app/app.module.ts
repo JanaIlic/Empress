@@ -18,7 +18,7 @@ const routes: Routes = [
   {path: 'vencanice', component: VencaniceComponent},
   {path: 'kontakt', component: KontaktComponent},
   {path: 'vencanica', component: VencanicaComponent},
- // {path: 'vencanica/:id', component: VencanicaComponent}
+  {path: 'vencanica/:id', component: VencanicaComponent},
  {path: 'zakazivanje', component: ZakazivanjeComponent}
 ];
 

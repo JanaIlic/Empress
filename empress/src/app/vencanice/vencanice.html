@@ -1,2 +1,57 @@
 <zajednicka></zajednicka>
 <h2>Galerija</h2>
+
+
+<div>
+    <table >
+        <tr *ngFor="let r of redovi"> 
+            <td> 
+                <a  href="vencanica/1">
+                     <img src="{{putanje[r]}}"  alt="nema">
+                     <p>{{vencanice[r].naziv}}</p>
+                </a>
+            </td>
+            <td>
+                <a  href="vencanica/2">
+                <img src="{{putanje[r+1]}}"  alt="nema" href="vencanica/2">
+                <p>{{vencanice[r+1].naziv}}</p>
+            </a>
+            </td>
+            <td>
+                <a  href="vencanica/1">
+                    <img src="{{putanje[r+2]}}"  alt="nema">
+                    <p>{{vencanice[r+2].naziv}}</p>
+               </a>
+            </td>
+            <td>
+                <a  href="vencanica/1">
+                    <img src="{{putanje[r+3]}}"  alt="nema">
+                    <p>{{vencanice[r+3].naziv}}</p>
+               </a>
+            </td>
+        </tr>
+    
+        <!--tr>
+            <td>
+                <a  href="vencanica/1">
+                     <img src="{{putanje[1]}}"  alt="nema">
+                </a>
+            </td>
+            <td>
+                <a  href="vencanica/2">
+                <img src="{{putanje[2]}}"  alt="nema" href="vencanica/2">
+            </a>
+            </td>
+            <td>
+                <a  href="vencanica/1">
+                    <img src="{{putanje[1]}}"  alt="nema">
+               </a>
+            </td>
+            <td>
+                <a  href="vencanica/1">
+                    <img src="{{putanje[1]}}"  alt="nema">
+               </a>
+            </td>
+        </tr-->
+    </table>
+</div>

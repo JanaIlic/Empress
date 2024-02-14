@@ -1,1 +1,61 @@
 @import '../dizajn.css';
+
+
+h3{
+    position: absolute;
+    top: 120px;
+    left: 630px;
+    color : white;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4{
+    position: absolute;
+    top: 530px;
+    left: 630px;
+    color: hsl(320, 86%, 39%);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img{
+    top: 140px;
+    left: 150px;
+    height: 480px;
+    width: auto;
+}
+
+pre{
+    top: 240px;
+    height: 280px;
+    left: 630px;
+}
+
+table{
+    position: absolute;
+    top: 0px;
+    left: -120px;
+    height: 480px;
+    width: 50px;
+    background-color: transparent;
+    overflow-y: hidden;
+    border-width: 0px;
+    padding: 0px;
+}
+
+td{
+    position: relative;
+    height: fit-content;
+    width: auto;
+    padding: 0px;
+}
+
+
+td> img{
+    height: 100px;
+    width: auto;
+}
+

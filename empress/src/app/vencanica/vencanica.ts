@@ -1,9 +1,17 @@
 export class Vencanica{
 
-   constructor(vID: number, vn: string, vs: string, vc: number){}
+
+
+   constructor(vID: number, vn: string, vc: number){
+      this.id = vID;
+      this.naziv = vn;
+      this.cena = vc;
+      this.opis = 'Opis venčanice...';
+   }
 
    id = 0;
    naziv = '';
-   slika = '';
    cena = 0;
+   opis = '';
+  
 }

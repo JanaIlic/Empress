@@ -3,20 +3,40 @@
 
 <img class="proba" src="" alt="slika probe vencanice">
 
-<table class="kalendar">
-    <tr > 
-        <td class="tdDanas" colspan="2" >{{trMesec}}  &nbsp; </td>  
-        <td colspan="2" style="background-color: transparent;" > &nbsp; &nbsp;</td>
-        <td class="tdPoruka" colspan="3"> Izaberite datum:  </td>  
+<p>Stranica je u pripremi. Kontaktirajte nas da biste zakazali probu.</p>
+
+<!--table class="kalendar">
+    <tr class="trMesec" > 
+        <td  colspan="2" >{{mesec.naziv}}  &nbsp; </td>  
+        <td><button class="btSledeci" > ➧ </button></td>
+        <td class="tdPrazno" colspan="4" ></td> 
+    </tr>
+
+    <tr class="trIzaberi"> 
+        <td class="tdPrazno" colspan="4" > </td>
+        <td colspan="3"> Izaberite datum:  </td>  
     </tr>
             
-    <tr> <td *ngFor="let p of prva" >{{p}}</td> </tr>
-    <tr> <td *ngFor="let d of druga" >{{d}}</td> </tr>
-    <tr> <td *ngFor="let t of treca" >{{t}}</td></tr>
-    <tr> <td *ngFor="let c of cetvrta" >{{c}}</td></tr>    
-    <tr> <td *ngFor="let p of peta" >{{p}}</td> </tr>
+    <tr> <td *ngFor="let pr of mesec.prva">
+       <button [disabled]="pr.uMesecu <= danas.uMesecu || danas.uNedelji == 'nedelja'">{{pr}}</button>  
+    </td> </tr>
+
+    <tr> <td *ngFor="let d of mesec.druga">
+        <button [disabled]="d.uMesecu <= danas.uMesecu || danas.uNedelji == 'nedelja'">{{d}}</button>
+    </td> </tr>
+
+    <tr> <td *ngFor="let t of mesec.treca">
+        <button [disabled]="t.uMesecu <= danas.uMesecu || danas.uNedelji == 'nedelja'">{{t}}</button>
+    </td> </tr>
+
+    <tr> <td *ngFor="let c of mesec.cetvrta">
+        <button [disabled]="c.uMesecu <= danas.uMesecu || danas.uNedelji == 'nedelja'">{{c}}</button> 
+    </td> </tr>    
+
+    <tr> <td *ngFor="let p of mesec.peta">
+        <button [disabled]="p.uMesecu <= danas.uMesecu || danas.uNedelji == 'nedelja'">{{p}}</button> 
+    </td> </tr>
        
-</table>
+</table-->
 
 
-<select name="" id=""></select>

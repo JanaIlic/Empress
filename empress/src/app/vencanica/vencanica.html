@@ -1,3 +1,27 @@
 <zajednicka></zajednicka>
 
-<h2>VENCANCA</h2>
+<img src={{putanje[prikazana]}} alt="{{v.naziv}}">
+
+<h3> {{v.naziv}}</h3>
+
+<pre>{{v.opis}}</pre>
+
+<h4>cena: {{v.cena}}</h4>
+
+<table>
+    <tr>
+        <td (click)="prikazana = 1">
+            <img src="{{putanje[1]}}" alt="nema">
+        </td>
+    </tr>
+    <tr>
+        <td (click)="prikazana = 2">
+            <img src="{{putanje[2]}}" alt="nema">
+        </td>
+    </tr>
+    <tr>
+        <td (click)="prikazana = 3">
+            <img src="{{putanje[3]}}" alt="nema">
+        </td>
+    </tr>
+</table>

@@ -7,6 +7,12 @@ img.proba{
     height: 350px;
 }
 
+p{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
 table{
     position: absolute;
 }
@@ -22,9 +28,7 @@ table.kalendar{
     border-radius: 8px;
 }
 
-table.th{
-    width: fit-content;
-}
+
 
 td{
     min-width: fit-content;
@@ -32,28 +36,53 @@ td{
     height: 40px;
     margin: 0px;
     text-align: center;
-    background-color: #b90e80;
+    background-color: transparent;
     color: white;
     font-weight: bold;
     border-radius: 8px;
 }
 
-td.tdDanas{
+
+td.tdPrazno{
+    background-color: transparent;
+}
+
+
+
+tr.trMesec > td{
     align-items: left;
     min-width: fit-content;
     font-weight: bold;
     font-style: italic;
     background-color: transparent;
     color: #b90e80;
+    height: fit-content;
+    padding: 0px;
 }
 
-td.tdPoruka{    
+tr.trIzaberi > td{    
     min-width: fit-content;
     color: #b90e80;
     background-color: transparent;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     font-style: italic;
-
+    height: fit-content;
+    padding: 0px;
 }
 
+button{
+    border: none;
+    background-color: #b90e80;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+button.btSledeci{
+    background-color: transparent;
+    color:#b90e80;
+}
